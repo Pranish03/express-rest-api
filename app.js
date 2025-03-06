@@ -13,7 +13,7 @@ const corsOptions = require("./config/corsOptions");
 const connectDB = require("./config/dbConn");
 
 const app = express();
-const PORT = process.env.PORT || 3500;
+const PORT = process.env.PORT || 3000;
 
 // connect to mongodb
 connectDB();
